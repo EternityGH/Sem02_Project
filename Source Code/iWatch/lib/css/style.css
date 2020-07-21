@@ -1,0 +1,2242 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/*CSS For header-wrapper */
+div.wrapper div.header-wrapper div.top-header {
+	background-color: #1c1c1c;
+	min-height: 50px;
+}
+
+div.wrapper div.header-wrapper div.top-header div.left {
+	float: left;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right {
+	float: right;
+}
+
+div.wrapper div.header-wrapper div.top-header div.left p {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	line-height: 50px;
+	margin: 0;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover > a > img {
+	width: 25px; 
+	height: 25px;
+	border-radius: 50%;
+	margin-right: 7px;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover {
+	text-align: right;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover > a {
+	position: relative;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	height: 100%;
+	font-size: 14px;
+	line-height: 50px;
+	padding: 0 20px;
+	vertical-align: super;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover > a i {
+	font-size: 18px;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover div.menu-hidden {
+	position: absolute;
+	z-index: 99; 
+	top: -100px;
+	left: -100%;
+	text-align: center;
+	-webkit-box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.15);
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.15);
+	transition: 0.5s cubic-bezier(0.25, 0.1, 0.38, 0.56);
+	opacity: 0;
+	background-color: #fff;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover div.menu-hidden a.item {
+	display: block;
+	color: #000;
+	padding: 10px 35px;
+	transition: 0.3s;
+	border: 1px solid #ddd;
+	font-size: 14px;
+}
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover div.menu-hidden a.item:hover {
+	text-decoration: none;
+	opacity: 0.6;
+}
+
+
+div.wrapper div.header-wrapper div.top-header div.right div.menu-hover:hover > div.menu-hidden {
+	top: auto;
+	left: auto;
+	opacity: 1;
+}
+
+div.wrapper div.header-wrapper div.bottom-header {
+	border-bottom: 1px solid #ddd;
+}
+
+div.wrapper div.header-wrapper div.fix {
+
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar {
+    padding: 0 16px;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar a.navbar-brand {
+	font-size: 26px;
+	font-family:  sans-serif;
+    padding: 0;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar a.navbar-brand span {
+	color: #07abad;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar div.navbar-collapse ul li a {
+    padding: 20px 25px;
+    opacity: 0.8;
+    transition: 0.4s all;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar div.navbar-collapse ul li a:hover {
+    opacity: 1;
+    background-color: #e2e2e2;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar div.navbar-collapse ul li.dropdown div.dropdown-menu {
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.15);
+    transition: 0.5s cubic-bezier(0.25, 0.1, 0.38, 0.56);
+    background-color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 0;
+    transition: 0.4s all;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar div.navbar-collapse ul li.show div.dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar div.navbar-collapse ul li.dropdown:hover div.dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+div.wrapper div.header-wrapper div.bottom-header nav.navbar div.navbar-collapse ul li.dropdown div.dropdown-menu a.dropdown-item{
+    display: block;
+    color: #000;
+    padding: 10px 30px;
+    transition: 0.3s;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    letter-spacing: 1.4px;
+}
+
+/*End Css For header-wrapper*/
+
+/*Css for slider*/
+
+div.main-wrapper div.slider div.slide div.carousel-inner div.carousel-item {
+	background: url(../images/slider/slider-1.jpg) no-repeat;
+	background-size: cover;
+	height: 600px;
+}
+
+div.main-wrapper div.slider div.slide div.carousel-inner div.carousel-item:nth-child(2) {
+	background-image: url(../images/slider/slider-2.jpg);
+}
+
+div.main-wrapper div.slider div.slide div.carousel-inner div.carousel-item div.button {
+	position: absolute;
+	z-index: 99;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 30%);
+	background: #1c1c1c;
+	border-radius: 0;
+	border: none;
+	line-height: 55px;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 0 70px;
+	height: 55px;
+	transition: 0.5s;
+}
+
+div.main-wrapper div.slider div.slide div.carousel-inner div.carousel-item div.button:hover {
+	background-color: #916841;
+}
+
+
+
+
+/*Css for footer*/
+
+/*Css For Footer*/
+
+div.footer-wrapper {
+	margin-top: 50px;
+}
+
+div.footer-wrapper div.intro-footer {
+	background-color: #1c1c1c;
+	padding: 50px 0;
+}
+
+div.footer-wrapper div.intro-footer div.block-intro {
+	color: #fff;
+	text-align: center;
+}
+
+div.footer-wrapper div.intro-footer div.block-intro p {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #fff;
+    margin: 15px 0 0;
+}
+
+div.footer-wrapper div.top-footer {
+	padding-top: 50px;
+	border-bottom: 1px #ddd solid;
+	padding-bottom: 30px;
+}
+
+div.footer-wrapper div.logo p {
+	font-size: 26px;
+}
+
+div.footer-wrapper div.logo p span {
+	color: #07abad;
+}
+
+div.footer-wrapper div.block-1 b {
+	font-weight: 600;
+}
+
+div.footer-wrapper div.block-1 div.about-us div.store,div.email,div.hotline {
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	padding: 10px 0;
+}
+
+div.footer-wrapper div.block-4,div.block-2,div.block-3,div.block-5 {
+	padding-top: 60px;
+}
+
+div.footer-wrapper div.block-4 div.title h6,div.block-2 div.title h6,div.block-3 div.title h6,div.block-5 div.title h6 {
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	line-height: 20px;
+	font-weight: 600;
+}
+
+div.footer-wrapper div.block-2 div.product a, div.block-3 div.product a, div.block-4 div.product a {
+	display: block;
+	color: #1c1c1c;
+	text-decoration: none;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 15px 0;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+}
+
+div.footer-wrapper div.block-2 div.product a:hover, div.block-3 div.product a:hover,div.block-4 div.product a:hover {
+	color: #916841;
+}
+
+div.footer-wrapper div.block-5 div.content p {
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	line-height: 20px;
+	padding: 10px 0;
+    font-weight: 400;
+}
+
+div.footer-wrapper div.block-5 div.subscribe div.form-field {
+	display: flex; 
+	flex-flow: column;
+	margin:10px 0;
+}
+
+div.footer-wrapper div.block-5 div.subscribe div.form-field input {
+    height: 40px;
+    background-color: #e2e2e2;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 8px;
+    width: 100%;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+div.footer-wrapper div.block-5 div.subscribe div.form-field input:focus {
+    border-color: #1c1c1c;
+}
+
+div.footer-wrapper div.block-5 div.subscribe div.form-field button {
+	height: 44px;
+	color: #fff;
+	background-color: #1c1c1c;
+	border: none;
+    cursor: pointer;
+	font-size: 14px;
+	transition: 0.5s;
+}
+
+div.footer-wrapper div.block-5 div.subscribe div.form-field button:hover {
+	background-color: #916841;
+}
+
+div.footer-wrapper div.block-5 div.social-icon a {
+	font-size: 28px;
+	padding: 10px 20px;
+	color: #000;
+}
+
+div.footer-wrapper div.bottom-footer {
+	margin: 30px 0;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+/*End Css For Footer*/
+
+
+
+/*Css for register-page*/
+
+div.register-page {
+	padding: 80px 0;
+}
+
+div.register-page h3 {
+	text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 4.4px;
+    outline: none;
+}
+
+div.register-page div.register-form {
+	width: 50%;
+	margin: auto;
+}
+
+div.register-page div.register-form form label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+div.register-page div.register-form form input {
+	margin-bottom: 10px;
+	background: #e2e2e2;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.register-page div.register-form form input:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25); 
+}
+
+div.register-page div.register-form form button {
+	margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+    background: #1c1c1c;
+    color: #fff;
+    transition: 0.5s;
+}
+
+div.register-page div.register-form form button:hover {
+    background: #916841;
+    color: #fff;
+    border-color: #916841;
+}
+
+div.register-page div.register-form form button:focus {
+    outline: none;
+}
+
+div.register-page div.register-form form div.flex {
+	display: flex;
+}
+
+div.register-page div.register-form form div.form-group a {
+    margin-top: 40px;
+    flex-flow: row;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    background-color: transparent;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: 0.5s;
+}
+
+div.register-page div.register-form form div.form-group a:hover {
+	color: #916841;
+	text-decoration: underline;
+}
+
+div.register-page div.register-form p.error-mess {
+    color: red;
+}
+
+/*Enđ Css for register-page*/
+
+/*Css for login-page*/
+
+div.login-page {
+	padding: 80px 0;
+}
+
+div.login-page h3 {
+	text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 4.4px;
+    outline: none;
+}
+
+div.login-page div.sign-in {
+	width: 50%;
+	margin: auto;
+}
+
+div.login-page div.sign-in form label {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    align-items: center;
+    padding: 10px 0;
+}
+
+div.login-page div.sign-in form input {
+	margin-bottom: 30px;
+	background: #e2e2e2;
+    height: 60px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.login-page div.sign-in form input:focus {
+	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25); 
+}
+
+div.login-page div.sign-in form button {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+    background: #1c1c1c;
+    color: #fff;
+    transition: 0.5s;
+}
+
+div.login-page div.sign-in form button:hover {
+    background: #916841;
+    color: #fff;
+    border-color: #916841;
+}
+
+div.login-page div.sign-in form button:focus {
+    outline: none;
+}
+
+div.login-page div.sign-in form div.flex {
+	display: flex;
+}
+
+div.login-page div.sign-in form div.form-group a {
+    margin-top: 40px;
+    flex-flow: row;
+    width: 50%;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    background-color: transparent;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: 0.5s;
+}
+
+div.login-page div.sign-in form div.form-group a:nth-child(2) {
+	text-align: right;
+}
+
+div.login-page div.sign-in form div.form-group a:hover {
+	color: #916841;
+	text-decoration: underline;
+}
+
+div.login-page div.sign-in p.error-mess {
+    color: red;
+}
+
+/*End css for login-page*/
+
+
+/*Css for account-page*/
+
+div.account-page {
+	padding: 80px 0;
+}
+
+div.account-page div.title h3 {
+	text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 4.4px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+div.account-page div.form-info form label {
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+div.account-page div.form-info form sup {
+	color: red;
+}
+
+div.account-page div.form-info form div.row div.col-sm-3 img {
+	display: block;
+	width: 255px;
+	height: 255px;
+	border-radius: 50%;
+	margin-bottom: 20px;
+
+}
+
+div.account-page div.form-info form div.row div.col-sm-8 input {
+	background: #e2e2e2;
+	height: 40px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.account-page div.form-info form div.row div.col-sm-8 input[type='text']:focus, input[type='email']:focus  {
+	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25); 
+}
+
+div.account-page div.form-info form div.row div.col-sm-8 button {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+    background: #1c1c1c;
+    color: #fff;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+div.account-page div.form-info form div.row div.col-sm-8 button:hover {
+    background: #916841;
+    color: #fff;
+    border-color: #916841;
+}
+
+div.account-page div.form-info form div.row div.col-sm-8 button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+div.account-page div.form-info form div.row div.col-sm-8 p.error-mess {
+    margin: 10px 0;
+    color: red;
+}
+
+/*End css for account-page*/
+
+/*Css for best seller*/
+
+div.best-seller {
+    margin: 100px 0;
+}
+
+div.best-seller div.title {
+    margin-bottom: 30px;
+}
+
+div.best-seller div.title h3 {
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+}
+
+div.best-seller div.title h3 b {
+    font-weight: 600;
+}
+
+div.best-seller div.product {
+    overflow: hidden;
+    height: 390px;
+}
+
+div.best-seller div.product div.hover {
+    padding-top: 20px; 
+    transition: .3s ease-in-out;
+    will-change: transform;
+}
+
+div.best-seller div.product:hover div.hover {
+    transform: translate3d(0, -65px, 0);
+}
+
+div.best-seller div.product div.image {
+    position: relative;
+}
+
+div.best-seller div.product div.image img {
+    margin-bottom: 30px;
+    transition: 0.3s ease-in-out all;
+}
+
+div.best-seller div.product div.image img.hover-product {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+div.best-seller div.product div.info {
+    text-align: center;
+}
+
+div.best-seller div.product:hover div.image img.hover-product {
+    opacity: 1;
+    visibility: visible;
+}
+
+div.best-seller div.product:hover div.image img.show-img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+div.best-seller div.product div.info span {
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bfbfbf;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+div.best-seller div.product div.info h6 {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2.4px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div.best-seller div.product div.info h6 a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: 0.3s all;
+}
+
+div.best-seller div.product div.info h6 a:hover {
+    color: #916841;
+}
+
+div.best-seller div.product div.info p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.best-seller div.product form {
+
+}
+
+div.best-seller div.product form button {
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #fff;
+    height: 48px;
+    width: 50%;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid #1c1c1c;
+    transition: 0.4s all;
+    letter-spacing: 1px;
+}
+
+div.best-seller div.product form a {
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 48px;
+    text-transform: uppercase;
+    border: 1px solid #1c1c1c;
+    border-left: none;
+    height: 48px;
+    width: 50%;
+    font-size: 10px;
+    color: #1c1c1c;
+    text-decoration: none;
+    transition: 0.4s all;
+    letter-spacing: 1px;
+}
+
+div.best-seller div.product form button:focus, a:focus {
+    outline: none;
+}
+
+div.best-seller div.product form button:hover, div.best-seller div.product form a:hover {
+    background: #1c1c1c;
+    color: #fff;
+}
+/*End css for best seller*/
+
+/*Css for banner-men-watch*/
+
+div.banner-men-watch {
+    position: relative;
+    background: url(../images/background/all_men_watches_1920x.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0;
+    -webkit-animation: hienra 3s forwards; /* Safari 4.0 - 8.0 */
+    animation: hienra 1s forwards;
+    animation-delay: 0.2s;
+}
+
+div.banner-lady-watch {
+    position: relative;
+    background: url(../images/background/all_lady_watches.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0;
+    -webkit-animation: hienra 3s forwards; /* Safari 4.0 - 8.0 */
+    animation: hienra 1s forwards;
+    animation-delay: 0.2s;
+}
+
+div.banner-lady-watch div.title {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 4.4px;
+    margin-top: -15px;
+}
+
+div.banner-men-watch div.title {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 4.4px;
+    margin-top: -15px;
+}
+/*End Css for banner-men-watch*/
+
+/*Css for product-men-wathc*/
+
+div.product-men-watch {
+    margin: 80px 0;
+}
+
+div.product-men-watch div.title {
+    margin-bottom: 30px;
+}
+
+div.product-men-watch div.title h3 {
+    color: #1c1c1c;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4.4px;
+}
+
+div.product-men-watch div.title h3 b {
+    font-weight: 600;
+}
+
+div.product-men-watch div.product {
+    overflow: hidden;
+    height: 390px;
+}
+
+div.product-men-watch div.product div.hover {
+    padding-top: 20px; 
+    transition: .3s ease-in-out;
+    will-change: transform;
+}
+
+div.product-men-watch div.product:hover div.hover {
+    transform: translate3d(0, -65px, 0);
+}
+
+div.product-men-watch div.product div.image {
+    position: relative;
+}
+
+div.product-men-watch div.product div.image img {
+    margin-bottom: 30px;
+    transition: 0.3s ease-in-out all;
+}
+
+div.product-men-watch div.product div.image img.hover-product {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+div.product-men-watch div.product div.info {
+    text-align: center;
+}
+
+div.product-men-watch div.product:hover div.image img.hover-product {
+    opacity: 1;
+    visibility: visible;
+}
+
+div.product-men-watch div.product:hover div.image img.img-fluid {
+    opacity: 0;
+    visibility: hidden;
+}
+
+div.product-men-watch div.product div.info span {
+    font-size: 14px;
+    line-height: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #bfbfbf;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+div.product-men-watch div.product div.info h6 {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 2.4px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div.product-men-watch div.product div.info h6 a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #1c1c1c;
+    transition: 0.3s all;
+}
+
+div.product-men-watch div.product div.info h6 a:hover {
+    color: #916841;
+}
+
+div.product-men-watch div.product div.info p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+div.product-men-watch div.product form {
+
+}
+
+div.product-men-watch div.product form button {
+    float: left;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #fff;
+    height: 48px;
+    width: 50%;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid #1c1c1c;
+    transition: 0.4s all;
+    letter-spacing: 1px;
+}
+
+div.product-men-watch div.product form a {
+    float: right;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 48px;
+    text-transform: uppercase;
+    border: 1px solid #1c1c1c;
+    border-left: none;
+    height: 48px;
+    width: 50%;
+    font-size: 10px;
+    color: #1c1c1c;
+    text-decoration: none;
+    transition: 0.4s all;
+    letter-spacing: 1px;
+}
+
+div.product-men-watch div.product form button:focus, a:focus {
+    outline: none;
+}
+
+div.product-men-watch div.product form button:hover, div.best-seller div.product form a:hover {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+/*End Css for product-men-wathc*/
+
+/*Css For search-me-watch*/
+div.search-men-watch {
+    display: flex;
+    height: 60px;
+    border-bottom: 1px solid #ebebeb;
+    align-items: center;
+}
+
+div.search-men-watch div.container div.cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.search-men-watch div.container div.cover div.about {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
+
+div.search-men-watch div.container div.cover div.right {
+    width: 300px;   
+}
+
+/*End Css For search-me-watch*/
+
+/*Css for nav-view*/
+
+div.nav-view {
+    padding: 20px 0;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+}
+
+div.nav-view a {
+    color: #bfbfbf;
+    line-height: 1.5;
+    text-transform: uppercase;
+    transition: 0.4s all;
+}
+
+div.nav-view span {
+    transition: 0.4s all;
+    cursor: pointer;
+}
+
+div.nav-view span[aria-hidden] {
+    padding: 0 5px;
+    color: #bfbfbf;
+    line-height: 1.5;
+}
+
+div.nav-view .breadcrumb--last {
+    color: #1c1c1c;
+}
+
+div.nav-view a:hover, div.nav-view span:hover {
+    text-decoration: none;
+    color: #916841;
+} 
+
+/*End Css for nav-view*/
+
+
+/*Css for product_view*/
+
+div.product-view {
+    margin: 50px 0;
+}
+
+div.product-view div.info div.block-1 {
+    padding: 0;
+}
+
+div.product-view div.info div.block-1 ul {
+    list-style-type: none;
+}
+
+div.product-view div.info div.block-1 ul li img{
+    cursor: pointer;
+    width: 95px;
+    height: 95px;
+    transition: 0.4s all;
+    margin: 10px 0;
+    padding: 10px; 
+}
+
+div.product-view div.info div.block-1 ul li img.current {
+    border: 2px solid #1c1c1c;
+}
+
+div.product-view div.info div.block-1 ul li img:hover {
+    opacity: 0.6;
+}
+
+div.product-view div.info div.block-3 div.brand-name {
+    color: #bfbfbf;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+} 
+
+div.product-view div.info div.block-3 div.watch-name {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 5px 0;
+}
+
+div.product-view div.info div.block-3 div.price {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+div.product-view div.info div.block-3 div.row a {
+    display: block;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #fff;
+    height: 48px;
+    width: 100%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 48px;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    border: 1px solid #1c1c1c;
+    transition: 0.4s all;
+    letter-spacing: 1px;
+}
+
+div.product-view div.info div.block-3 div.row {
+    margin: 0 0;
+}
+
+div.product-view div.info div.block-3 div.row div.col-sm-6 {
+    padding: 0 5px;
+}
+
+div.product-view div.info div.block-3 div.row a:hover {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+div.product-view div.info div.block-3 div.row a.payment {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+div.product-view div.info div.block-3 div.row a.payment:hover {
+    background: #916841;
+    border: 1px solid #916841;
+}
+
+div.product-view div.info div.block-3 div.product-tabs div.product-tabs-nav {
+    display: flex;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 25px 0 0;
+}
+
+div.product-view div.info div.block-3 div.product-tabs div.product-tabs-nav a {
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #916841;
+    display: block;
+    padding: 15px 0;
+    position: relative;
+    cursor: pointer;
+}
+
+div.product-view div.info div.block-3 div.product-tabs div.product-tabs-nav a+a {
+    margin-left: 55px;
+}
+
+.product-tabs__nav--current {
+    color: #1c1c1c !important;
+    border-bottom: 1px solid #916841;
+}
+
+div.product-view div.info div.block-3 div.product-tabs .product-tabs__tab {
+    display: none;
+    line-height: 26px;
+    padding: 15px 0;
+    font-size: 14px;
+    text-align: justify;
+    transition: 0.4s all;
+}
+
+div.product-view div.info div.block-3 div.product-tabs .current {
+    display: block;
+}
+
+div.product-view div.info div.block-3 {
+    padding-top: 0;
+}
+
+.product-tabs__header {
+    display: none;
+}
+
+div.product-view div.block-2 {
+    position: relative;
+    width: 100%;
+    padding-top: 0;
+}
+
+div.product-view .tile {
+    position: absolute;
+    width: 500px;
+    overflow: hidden;
+    height: 500px;
+    display: none;
+}
+
+div.product-view div.block-2 div.current {
+    display: block;
+} 
+
+.photo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+}
+
+.txt {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    cursor: default;
+}
+
+.x {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+div.product-view div.info div.star {
+    margin: 10px 0;
+}
+
+div.product-view div.info div.star .spr-badge {
+    zoom: 1;
+    min-height: auto;
+    min-width: auto;
+    display: block;
+}
+
+div.product-view div.info div.star .spr-badge:before,  div.product-view div.info div.star .spr-badge:after {
+    content: " ";
+    display: table;
+}
+
+div.product-view div.info div.star .spr-badge .spr-badge-starrating {
+    margin: 0 3px 0 0;
+    padding: 10px 0;
+    border: none;
+}
+
+div.product-view div.info div.star .spr-badge .spr-badge-starrating i {
+    font-size: 120%;
+    position: relative;
+    top: 1px;
+    width: 1.3em;
+    height: 1.3em;
+    color: #edc419;
+}
+
+div.product-view div.info div.star .spr-badge .spr-badge-caption {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+div.product-view div.info .addition-straps {
+    padding: 10px 0;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+div.product-view div.info .addition-straps h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 0;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+div.product-view div.info .addition-straps__list {
+    display: flex;
+    margin: 20px 0 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+div.product-view div.info .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+div.product-view div.info .addition-straps__list .slick-list {
+    width: 100%;
+}
+
+div.product-view div.info .slick-slider .slick-track, .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+div.product-view div.info .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.addition-straps__list .slick-track {
+    display: flex;
+    width: 100%;
+}
+
+.strap-product__image {
+    position: relative;
+}
+
+.slick-slide * {
+    outline: none;
+}
+
+.strap-product__image img {
+    margin: 0 auto;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.strap-product__price {
+    margin: 5px 0;
+    font-size: 12px;
+    opacity: .7;
+    transition: 0.4s all;
+}
+
+.strap-product h3 {
+    font-size: 12px;
+    margin: 10px 0 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    flex: 1;
+    transition: 0.4s all;
+}
+
+.strap-product .checkmark {
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+    display: block;
+    border: 2px solid #1c1c1c;
+    margin: 10px auto 0;
+}
+
+.strap-product {
+    text-align: center;
+    margin: 0 15px;
+    cursor: pointer;
+    position: relative;
+    height: auto;
+    display: flex !important;
+    flex-flow: column;
+}
+
+.strap-product:hover h3 {
+    color: #916841;
+}
+
+.strap-product:hover .strap-product__price {
+    opacity: 1;
+}
+
+.strap-product.is-added h3 {
+    color: #51C96D;
+}
+
+.is-added .strap-product__price {
+    color: #51C96D;
+}
+
+.strap-product.is-added .checkmark {
+    background: #61a745;
+    border-color: #61a745;
+}
+
+.strap-product.is-added .checkmark:after {
+    display: block;
+}
+
+.strap-product .checkmark:after {
+    content: '';
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    width: 7px;
+    height: 14px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+/*End css for product_view*/
+
+/*Css for intro-website*/
+div.intro-website {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+div.intro-website div.block-intro {
+    color: #1c1c1c;
+    text-align: center;
+}
+
+div.intro-website div.block-intro p {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #1c1c1c;
+    margin: 15px 0 0;
+}
+
+div.intro-website .block-intro svg path {
+    fill: #1c1c1c !important;
+}
+/*End css for intro-website*/
+
+/*Css for specifications*/
+
+div.specifications {
+    margin: 50px 0;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+div.specifications div.info h2 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 4.4px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #1c1c1c;
+}
+
+div.specifications div.info div.row div.col-6:nth-child(2) {
+    text-align: right;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 15px 0;
+}
+
+div.specifications div.info div.row div.col-6:nth-child(1) {
+    text-transform: uppercase;
+    color: #1c1c1c;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    padding: 15px 0;
+    font-weight: 600;
+}
+/*End css for specifications*/
+
+/*Css for feed-back*/
+
+div.feed-back div.container div.title h1 {
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 4.4px;
+    text-align: center;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+div.feed-back div.container div.header div.row div.col-6 a.open-write-review {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+    justify-content: center;
+    height: 55px;
+    padding: 0 50px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+    border-color: #1c1c1c;
+    background: #fff;
+    color: #1c1c1c;
+    float: right;
+    transition: 0.4s all;
+}
+
+div.feed-back #message {
+    display: none;
+}
+
+div.feed-back #message h5 {
+    font-weight: 600;
+}
+
+div.feed-back #message p {
+    margin-bottom: 0;
+}
+
+div.feed-back div.container div.header div.row div.col-6 a.open-write-review:hover {
+    background: #1c1c1c;
+    color: #fff;
+}
+
+div.feed-back div.container div.header div.row div.col-6:nth-child(1){
+    line-height: 55px;
+}
+
+div.feed-back div.container div.header div.row div.col-6 i {
+    color: #edc419;
+}
+
+div.feed-back div.container div.header div.row div.col-6 span.spr-badge-caption {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1c1c;
+}
+
+div.feed-back div.container div.form-review {
+    border-top: 1px solid #e5e5e5;
+    padding: 50px 0;
+    margin: 50px 0;
+    display: none;
+}
+
+div.feed-back div.container div.form-review.current {
+    display: block;
+}
+
+div.feed-back div.container div.form-review h6 {
+    color: #1c1c1c;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+div.feed-back div.container div.form-review form label {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+div.feed-back div.container div.form-review form input {
+    border: 1px solid #ebebeb;
+    background-color: #e2e2e2;
+    box-shadow: none;
+    height: 45px;
+    outline: none;
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+div.feed-back div.container div.form-review form textarea {
+    border: 1px solid #ebebeb;
+    background-color: #e2e2e2;
+    box-shadow: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 14px
+}
+
+div.feed-back div.container div.form-review form button {
+    width: auto;
+    margin: 10px 0;
+    min-height: 1em;
+    float: right;
+    background: #1c1c1c;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: none;
+    text-shadow: none;
+    outline: none;
+    justify-content: center;
+    height: 55px;
+    padding: 0 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+}
+
+div.feed-back div.container div.form-review form button:hover {
+    opacity: 0.8;
+}
+
+div.stars {
+    width: 215px;
+    display: inline-block;
+}
+ 
+div.feed-back div.container div.form-review form input.star { display: none; }
+ 
+div.feed-back div.container div.form-review form label.star {
+    float: right;
+    padding: 10px;
+    font-size: 24px;
+    color: #444;
+    transition: all .2s;
+}
+ 
+div.feed-back div.container div.form-review form input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: #FD4;
+    transition: all .25s;
+}
+ 
+div.feed-back div.container div.form-review form input.star-1:checked ~ label.star:before { color: #edc419; }
+
+div.feed-back div.container div.form-review form input.star-5:checked ~ label.star:before {
+    color: #edc419;
+}
+ 
+div.feed-back div.container div.form-review form label.star:hover { transform: rotate(-15deg) scale(1.3); }
+ 
+div.feed-back div.container div.form-review form label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}  
+
+div.feed-back div.container div.review-customer {
+    border-top: 1px solid #e5e5e5;
+    margin: 40px 0;
+}
+
+div.feed-back div.container div.review-customer div.one-review {
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 50px;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.info-cus img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.info-cus span {
+    vertical-align: sub;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.info-cus span.name {
+    line-height: 22px;
+    margin-top: 2px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.info-cus span.admin {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    font-size: 10px;
+    background: #d0011b;
+    padding: 1px 6px;
+    margin-left: 8px;
+    text-align: center;
+    display: inline-block;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.title h6 {
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.content p {
+    margin: 20px 0;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.reply {
+    display: block;
+    position: relative;
+    margin: 15px 0 0 0;
+    padding: 20px 25px 15px 22px;
+    clear: both;
+    font-size: 14px;
+    color: #333;
+    line-height: 24px;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.reply div.one-reply {
+    border-bottom: 1px solid #1c1c1c;
+    padding: 25px 0;
+}
+
+
+div.feed-back div.container div.review-customer div.one-review div.reply:before, div.feed-back div.container div.review-customer div.one-review div.reply:after {
+    top: -20px;
+    left: 18px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+    
+
+div.feed-back div.container div.review-customer div.one-review div.reply:before {
+    border-color: rgba(238,238,238,0);
+    border-bottom-color: #fff;
+    border-width: 11px;
+    margin-left: -11px;
+    z-index: 1;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.reply:after {
+    border-color: rgba(255,255,255,0);
+    border-bottom-color: #c7c7c7;
+    border-width: 10px;
+    margin-left: -10px;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.timing {
+    font-size: 14px;
+    color: #999;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.timing a{
+    cursor: pointer;
+    color: blue;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.form-reply {
+    margin: 10px 0;
+}
+  
+div.feed-back div.container div.review-customer div.one-review div.rating {
+    margin-top: 10px;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.rating i {
+    color: #edc419;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.form-reply {
+    display: none;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.form-reply button {
+    height: 44px;
+    color: #fff;
+    background-color: #1c1c1c;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    width: 100%;
+    transition: 0.5s;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.form-reply button:hover {
+    background-color: #916841;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.form-reply.current {
+    display: block;
+}
+
+
+div.feed-back div.container div.review-customer div.one-review div.login-now {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    background-color: #ddd;
+}
+
+div.feed-back div.container div.review-customer div.one-review div.login-now p {
+    text-transform: uppercase;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+/*End css for feed-back*/
+
+/*css page contact
+Css for div.information*/
+
+div.container-1 {
+    height: 600px;
+    -webkit-animation: hienra 3s forwards; /* Safari 4.0 - 8.0 */
+    animation: hienra 1s forwards;
+    animation-delay: 0.4s;
+    opacity: 0;
+    width: 100%;
+    background-image: url('../images/background/watches1.jpg');
+    background-position-y: -40px;
+}
+
+/*end css for div.information*/
+
+div.formInfo  {
+    margin: 100px 0;
+}
+
+div.formInfo div.border-map iframe {
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+div.formInfo div.border-map {
+    border: 1px solid #e8e6e6;
+    border-radius: 5px;
+    background-color: #f8fafa;
+}
+
+div.formInfo input, div.formInfo textarea  {
+    background-color: #f4f6f7;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+div.formInfo textarea {
+    background-color: #e2e2e2;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 8px;
+    width: 100%;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+div.formInfo h1 {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-decoration: underline;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #1c1c1c;
+}
+
+div.formInfo input {
+    height: 40px;
+    background-color: #e2e2e2;
+    line-height: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 8px;
+    width: 100%;
+    padding: 0 16px;
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: none;
+}
+
+div.formInfo textarea:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25);
+    background-color: #e2e2e2;
+    border: none;
+}
+
+div.formInfo input[type='text']:focus, input[type='email']:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25);
+    background-color: #e2e2e2;
+    border: none;
+}
+
+div.formInfo button {
+    height: 44px;
+    color: #fff;
+    background-color: #1c1c1c;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    width: 100%;
+    transition: 0.5s;
+    text-align: center;
+}
+div.formInfo button:hover {
+    background: #916841;
+    color: #fff;
+    border-color: #916841;
+}
+    
+/*end css for div.formInfo*/
+/*end css page contact*/
+
+
+div.brand-watch {
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0;
+    -webkit-animation: hienra 3s forwards; /* Safari 4.0 - 8.0 */
+    animation: hienra 1s forwards;
+    animation-delay: 0.1s;
+}
+
+div.brand-watch div.container {
+    position: relative;
+    height: 150px;
+}
+
+div.brand-watch div.title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: none;
+    height: 300px;
+}
+
+div.brand-watch div.title h1 {
+    font-size: 22px;
+    line-height: 1.4;
+    letter-spacing: 4.4px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+div.brand-watch div.title p {
+    font-size: 13px;
+    line-height: 25px;
+    color: #fff;
+    letter-spacing: 0.25px;
+    width: 45%;
+}
+
+/*End css for Brand-ưatch*/
+
+/*Css for delivery_policy*/
+div.delivery-policy div.banner {
+    height: 250px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-image: url(../images/background/policy.jpg);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.delivery-policy div.banner h1 {
+    text-align: center;
+    font-size: 30px;
+    line-height: 250px;
+    letter-spacing: 4.4px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+div.delivery-policy div.menu-bar {
+    border-bottom: 1px solid #eee;
+}
+
+div.delivery-policy div.menu-bar div.container nav.navbar {
+    padding: 0;
+}
+
+div.delivery-policy div.menu-bar div.container nav.navbar div.collapse ul li a {
+    border-width: 1px 1px 0px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-top-color: #eee;
+    border-right-color: #eee;
+    border-left-color: #eee;
+    border-image: initial;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 25px 30px;
+    border-bottom-style: initial;
+    border-bottom-color: initial;
+    color: #916841;
+    letter-spacing: 1.4px;
+    transition: 0.4s all;
+}
+
+div.delivery-policy div.menu-bar div.container nav.navbar div.collapse ul li.active a {
+    color: #1c1c1c;
+    border-bottom: 1px solid #916841;
+}
+
+div.delivery-policy div.menu-bar div.container nav.navbar div.collapse ul li:hover a {
+    color: #1c1c1c;
+    border-bottom: 1px solid #916841;
+}
+
+div.delivery-policy div.content div.container h3.title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 4.4px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+div.delivery-policy div.content div.container div.paragraph {
+    margin-top: 70px;
+}
+
+div.delivery-policy div.content div.container div.paragraph p span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1c1c;
+    -webkit-font-smoothing: antialiased;
+}
+
+div.delivery-policy div.content div.container div.table-delivery {
+    margin: 50px 0;
+    border: 1px solid rgba(34,36,38,0.15);
+    background: #fff;
+}
+
+div.delivery-policy div.content div.container div.table-delivery table {
+    width: 100%;
+    max-width: 100%;
+    background: inherit;
+    margin: 0em;
+    box-shadow: none;
+    text-align: left;
+    color: rgba(0,0,0,0.87);
+    border-collapse: separate;
+    border-spacing: 0px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+div.delivery-policy div.content div.container div.table-delivery table tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+div.delivery-policy div.content div.container div.table-delivery table tr th {
+    cursor: auto;
+    background: #f9fafb;
+    text-align: inherit;
+    padding: 10px 15px;
+    vertical-align: inherit;
+    font-weight: bold;
+    min-width: 50px;
+    border: none;
+    font-family: inherit;
+    transition: background 0.1s ease 0s, color 0.1s ease 0s;
+}
+
+div.delivery-policy div.content div.container div.table-delivery table tr td {
+    padding: 10px 15px;
+    border-top: 1px solid rgba(34,36,38,0.1);
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    min-width: 50px;
+    transition: background 0.1s ease 0s, color 0.1s ease 0s;
+}
+
+div.payment-method div.content div.container div.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1c1c;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+}
+
+div.return-policy div.content div.container div.paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1c1c;
+    -webkit-font-smoothing: antialiased;
+    line-height: 20px;
+}
+
+div.faqs div.content div.container div.block-faq {
+    margin-top: 80px;
+}
+
+div.faqs div.content div.container div.block-faq h3 {
+    color: #1c1c1c;
+    font-weight: 700;
+}
+
+div.faqs div.content div.container div.block-faq div.cover div.one-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-radius: 3px;
+}
+
+div.faqs div.content div.container div.block-faq div.cover div.one-block a {
+    font-weight: 700;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    border-color: #ebebeb;
+    padding: 15px;
+    font-size: 16px;
+    color: #1c1c1c;
+    background-color: #eee;
+    cursor: pointer;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-align: left;
+    outline: none;
+    transition: all 0.4s ease 0s;
+    display: block;
+    position: relative;
+}
+
+div.faqs div.content div.container div.block-faq div.cover div.one-block a i {
+    position: absolute;
+    right: 10px;
+    transition: all 0.2s ease 0s;   
+    margin-right: 5px;
+    line-height: 24px;
+}
+
+div.faqs div.content div.container div.block-faq div.cover div.one-block a.active i {
+    transform: rotate(90deg);
+}
+
+div.faqs div.content div.container div.block-faq div.cover div.one-block div.hidden {
+    box-sizing: border-box;
+    padding: 30px 20px;
+    position: relative;
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1c1c;
+    -webkit-font-smoothing: antialiased;
+}
+
+div.guarantee div.content div.container div.paragraph h4 {
+    font-weight: 700;
+    padding: 20px 0;
+
+}
+
+/*animation*/
+
+
+@-webkit-keyframes hienra {
+    from {transform: translateX(-200px);}
+    to {transform: translateX(0); opacity: 1;}
+}
+
+@keyframes hienra {
+    from {transform: translateX(-200px);}
+    to {transform: translateX(0); opacity: 1;}
+}
+
+
+/*end animation*/

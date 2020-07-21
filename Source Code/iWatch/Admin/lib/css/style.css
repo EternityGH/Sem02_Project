@@ -1,0 +1,185 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+li.drop:hover > div.dropdown-menu {
+	display: block;
+}
+
+/*Css for form edit customer*/
+div.edit-customer form label {
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+div.edit-customer form sup {
+	color: red;
+}
+
+div.edit-customer form input[type='text'] {
+	background: #e2e2e2;
+	height: 40px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.edit-customer form input[type='text']:focus, input[type='email']:focus  {
+	box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25); 
+}
+
+div.edit-customer form button {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+    background: #1c1c1c;
+    color: #fff;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+div.edit-customer form button:hover {
+    background: #916841;
+    color: #fff;
+    border-color: #916841;
+}
+
+div.edit-customer form p.error-mess {
+    margin: 10px 0;
+    color: red;
+}
+
+div.edit-customer form select {
+    background: #e2e2e2;
+    height: 40px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    outline: none; 
+}
+/*end css for form edit customer*/
+
+/*Css for form add watch*/
+div.add-watch form label {
+    font-weight: 500;
+    letter-spacing: 2.4px;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 15px 0;
+}
+
+div.add-watch form sup {
+    color: red;
+}
+
+div.add-watch form input[type='text'] {
+    background: #e2e2e2;
+    height: 40px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.add-watch form input[type='text']:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25); 
+}
+
+div.add-watch form select {
+    background: #e2e2e2;
+    height: 40px;
+    padding: 0 25px;
+    border: 1px solid transparent;
+    outline: none; 
+}
+
+div.add-watch form button {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    justify-content: center;
+    height: 55px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    white-space: nowrap;
+    transition: .2s all;
+    border: 1px solid transparent;
+    background: #1c1c1c;
+    color: #fff;
+    transition: 0.5s;
+    margin-top: 10px;
+}
+
+div.add-watch form button:hover {
+    background: #916841;
+    color: #fff;
+    border-color: #916841;
+}
+
+div.add-watch form div.form.check {
+
+}
+
+div.add-watch form p.error-mess {
+    margin: 10px 0;
+    color: red;
+}
+/*end css for form add watch*/
+
+table.watch tbody tr td {
+    vertical-align: middle;
+} 
+
+table.customer tbody tr td {
+    vertical-align: middle;
+} 
+
+input.table-search {
+    width: 20%;
+    display: inline-block;
+}
+
+
+div.add-brand form textarea {
+    background: #e2e2e2;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.add-brand form textarea:focus {
+    background: #e2e2e2;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25);
+}
+
+div.edit-brand form textarea {
+    background: #e2e2e2;
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    outline: none;
+}
+
+div.edit-brand form textarea:focus {
+    background: #e2e2e2;
+    box-shadow: 0 0 0 0.2rem rgba(0,0,0,.25);
+}
+
+
+
+
+
